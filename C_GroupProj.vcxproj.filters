@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BankingApp.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="client.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="clients.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="date_time.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="linked_list.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="transaction.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="transactions.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="encrypt.c">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BankingApp.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="clients.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="date_time.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="linked_list.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="transaction.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="transactions.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="encrypt.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="header">
+      <UniqueIdentifier>{c3957f3f-41fb-4b0b-bc8a-9070d7a83024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{1a333035-7557-4e00-8797-617cbdb15daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DB">
+      <UniqueIdentifier>{4427292c-fbb2-4393-af1c-d282c960f144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Make">
+      <UniqueIdentifier>{cceb4ad6-e5dd-4a5c-8bd6-da366353e7cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile">
+      <Filter>Make</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="client_db.txt">
+      <Filter>DB</Filter>
+    </Text>
+    <Text Include="transaction_db.txt">
+      <Filter>DB</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
